@@ -17,7 +17,6 @@ This repository contains the code for an offline voice assistant implemented wit
 - Arduino Nano BLE Sense board
 - RGB LED connected to the appropriate pins on the board
 - Picovoice Access Key obtained from the Picovoice Console
-- Edge ML model for the desired inference task (e.g., Rhino for voice recognition)
 - Arduino IDE or compatible development environment for code compilation and uploading
 
 ## Getting Started
@@ -28,18 +27,15 @@ This repository contains the code for an offline voice assistant implemented wit
 2. **Obtain Picovoice Access Key**:
    - Sign up for an account on the [Picovoice Console](https://picovoice.ai/console/) to obtain an Access Key.
 
-3. **Download Edge ML Model**:
-   - Download the Edge ML model (e.g., Rhino) for your desired inference task from the appropriate provider.
-
-4. **Configure Code**:
+3. **Configure Code**:
    - Replace the `ACCESS_KEY` variable in the code with your Picovoice Access Key.
    - Integrate the Edge ML model into the code for additional inference capabilities.
    - Customize voice commands and LED control logic as needed.
 
-5. **Upload Code**:
+4. **Upload Code**:
    - Upload the provided sketch to the Arduino Nano BLE Sense board using Arduino IDE or a compatible development environment.
 
-6. **Interact with the Voice Assistant**:
+5. **Interact with the Voice Assistant**:
    - Speak the wake word to activate the voice assistant.
    - Issue voice commands to control the RGB LED, observing real-time response and inference accuracy.
 
