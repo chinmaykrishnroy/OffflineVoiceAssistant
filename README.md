@@ -38,6 +38,10 @@ This repository contains the code for an offline voice assistant implemented wit
 5. **Interact with the Voice Assistant**:
    - Speak the wake word to activate the voice assistant.
    - Issue voice commands to control the RGB LED, observing real-time response and inference accuracy.
+  
+## Image
+![assistant](https://github.com/chinmaykrishnroy/OffflineVoiceAssistant/assets/65699140/ef2e8e42-b01f-4f37-a508-2b4481b59f9d)
+
 
 ## License
 
